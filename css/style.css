@@ -1,0 +1,147 @@
+.body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #212121;
+}
+/*---------------------------- Header------------------------------- */
+.header-studio {
+  color: #000000;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+  color: #212121;
+}
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.list .link.current {
+  color: #2196f3;
+}
+
+.header-adress {
+  list-style-type: none;
+}
+.header-mail,
+.header-phone {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-phone:focus,
+.header-phone:hover,
+.header-mail:focus,
+.header-mail:hover {
+  color: #2196f3;
+}
+/*----------------------------- Main------------------------ */
+
+/* Button */
+.main-list-btn {
+}
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: left;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  color: #212121;
+  border: none;
+}
+.button:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+.main-link-btn {
+  list-style-type: none;
+}
+/* Pictures */
+.main-list {
+  list-style-type: none;
+}
+.main-link-lead {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.main-link-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*------------------------- Footer--------------------------*/
+.footer-studio {
+  color: #ffffff;
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+}
+.footer-adress {
+  list-style-type: none;
+}
+.footer-adress a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress .map {
+  color: #ffffff;
+}
+.map:hover,
+.map:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus {
+  color: #2196f3;
+}
