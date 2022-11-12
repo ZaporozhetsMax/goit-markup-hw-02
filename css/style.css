@@ -1,16 +1,25 @@
 :root {
   --primery-color: #212121;
+  --accent-color: #2196f3;
+  --second-color: #757575;
+  --backround-color: #f5f5f5;
+  --logo-web-color: #000000;
+  --background-btn: #f5f4fa;
+  --text-btn-accent: #ffffff;
+  --footer-adress-text: rgba(255, 255, 255, 0.6);
+  --footer-backround-color: #2f303a;
 }
 /* ----------------------------body----------------------------------- */
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #212121;
+  color: var(--primery-color);
 }
 
 /*---------------------------- Header------------------------------- */
 
+/* ---логотип--- */
 .header-studio {
-  color: #000000;
+  color: var(--logo-web-color);
 }
 
 .logo {
@@ -21,18 +30,12 @@ body {
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
+/* ---страницы сайта--- */
 .list {
-  /* font-family: 'Roboto';
-  font-style: normal; */
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   list-style-type: none;
-  color: #212121;
 }
 
 .link {
@@ -43,18 +46,19 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--primery-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .list .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
+/* ---контакты шапки--- */
 .header-adress {
   list-style-type: none;
 }
@@ -67,7 +71,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--second-color);
   text-decoration: none;
 }
 
@@ -75,12 +79,12 @@ body {
 .header-phone:hover,
 .header-mail:focus,
 .header-mail:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*----------------------------- Main------------------------ */
 
-/* Button */
+/*---кнопки фильтра--- */
 .main-list-btn {
 }
 
@@ -92,15 +96,15 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
-  color: #212121;
+  background: var(--background-btn);
+  color: var(--primery-color);
   border: none;
 }
 
 .button:hover,
 .button:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--text-btn-accent);
+  background: var(--accent-color);
   cursor: pointer;
 }
 
@@ -108,7 +112,7 @@ body {
   list-style-type: none;
 }
 
-/* Pictures */
+/*---фото и текст--- */
 .main-list {
   list-style-type: none;
 }
@@ -130,12 +134,18 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
-
+/* -------Студія------ */
+.team {
+  background-color: var(--background-btn);
+}
+.solution {
+  background-color: var(--footer-backround-color);
+}
 /*------------------------- Footer--------------------------*/
 .footer-studio {
-  color: #ffffff;
+  color: var(--text-btn-accent);
 }
 
 footer {
@@ -156,11 +166,11 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-adress-text);
 }
 
 .footer-adress .map {
-  color: #ffffff;
+  color: var(--text-btn-accent);
 }
 
 .map:hover,
@@ -169,5 +179,5 @@ footer {
 .footer-mail:focus,
 .footer-phone:hover,
 .footer-phone:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
