@@ -9,13 +9,14 @@
   --footer-adress-text: rgba(255, 255, 255, 0.6);
   --footer-backround-color: #2f303a;
 }
-/* ----------------------------body----------------------------------- */
+
+/* ----------------------------body portfolio studio---------------------------------- */
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--primery-color);
 }
 
-/*---------------------------- Header------------------------------- */
+/*---------------------------- Header portfolio studio----------------------------- */
 
 /* ---логотип--- */
 .header-studio {
@@ -24,8 +25,6 @@ body {
 
 .logo {
   font-family: 'Raleway';
-  /* font-style: normal;
-  font-weight: 700; */
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -33,14 +32,12 @@ body {
   color: var(--accent-color);
 }
 
-/* ---страницы сайта--- */
+/* ---сторінки сайту портфоліо--- */
 .list {
   list-style-type: none;
 }
 
 .link {
-  /* font-family: 'Roboto';
-  font-style: normal; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,15 +55,13 @@ body {
   color: var(--accent-color);
 }
 
-/* ---контакты шапки--- */
+/* ---контакти шапки--- */
 .header-adress {
   list-style-type: none;
 }
 
 .header-mail,
 .header-phone {
-  /* font-family: 'Roboto';
-  font-style: normal; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,9 +77,9 @@ body {
   color: var(--accent-color);
 }
 
-/*----------------------------- Main------------------------ */
+/*----------------------------- Main portfolio studio----------------------- */
 
-/*---кнопки фильтра--- */
+/*---кнопки фільтра портфоліо--- */
 .main-list-btn {
 }
 
@@ -112,38 +107,116 @@ body {
   list-style-type: none;
 }
 
-/*---фото и текст--- */
+/* ----кнопка студія----- */
+.button-studio {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.button-studio:hover,
+.button-studio:focus {
+  color: var(--accent-color);
+  background: var(--text-btn-accent);
+  cursor: pointer;
+}
+
+/*---фото и текст портфоліо--- */
 .main-list {
   list-style-type: none;
 }
 
 .main-link-lead {
-  /* font-family: 'Roboto';
-  font-style: normal; */
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  /* color: #212121; */
 }
 
 .main-link-text {
-  /* font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400; */
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
+
 /* -------Студія------ */
-.team {
-  background-color: var(--background-btn);
-}
+
 .solution {
   background-color: var(--footer-backround-color);
 }
-/*------------------------- Footer--------------------------*/
+
+.solution-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-btn-accent);
+}
+
+/* ---переваги студія--- */
+.benefits {
+  list-style-type: none;
+}
+
+.benefits-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.benefits-subtext {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/* ----about studio--- */
+.text-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.about-pictures {
+  list-style-type: none;
+}
+
+/* -----team studio-------- */
+.team {
+  background-color: var(--background-btn);
+}
+
+.team-foto {
+  list-style-type: none;
+}
+
+.hero-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.hero-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/*------------------------- Footer portfolio studio-------------------------*/
 .footer-studio {
   color: var(--text-btn-accent);
 }
@@ -151,7 +224,7 @@ body {
 footer {
   width: 1600px;
   height: 252px;
-  background: #2f303a;
+  background: var(--footer-backround-color);
 }
 
 .footer-adress {
@@ -160,9 +233,7 @@ footer {
 
 .footer-adress a {
   text-decoration: none;
-  /* font-family: 'Roboto'; */
   font-style: normal;
-  /* font-weight: 400;  */
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
